@@ -14,14 +14,16 @@
 # limitations under the License.
 
 $(call inherit-product, device/motorola/owens/full_owens.mk)
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/bliss/config/common.mk)
+
 # Boot animation
 TARGET_SCREEN_WIDTH := 720
 TARGET_SCREEN_HEIGHT := 1280
+TARGET_BOOTANIMATION_NAME := 1080
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := owens
-PRODUCT_NAME := lineage_owens
+PRODUCT_NAME := bliss_owens
 PRODUCT_BRAND := motorola
 PRODUCT_MANUFACTURER := motorola
 

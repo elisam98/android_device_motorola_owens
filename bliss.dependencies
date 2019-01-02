@@ -1,0 +1,20 @@
+[
+  {
+    "remote":    "github",
+    "repository": "Bcrichster/android_device_motorola_owens",
+    "target_path": "device/motorola/owens",
+    "revision":      "master"
+  },
+  {
+    "remote":    "github",
+    "repository": "Bcrichster/android_kernel_motorola_msm8937",
+    "target_path": "kernel/motorola/msm8937",
+    "revision":      "cm-14.1"
+  },
+  {
+    "remote":     "github",
+    "repository": "Bcrichster/vendor_motorola_owens",
+    "target_path": "vendor/motorola/owens",
+    "revision":      "master"
+  }
+]
